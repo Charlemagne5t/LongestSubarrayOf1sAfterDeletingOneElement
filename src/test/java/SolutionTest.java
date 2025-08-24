@@ -25,4 +25,12 @@ public class SolutionTest {
         int actual = new Solution().longestSubarray(nums);
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void longestSubarrayTest4() {
+        int[] nums = {0,0,1,1};
+        int expected = 2;
+        int actual = new Solution().longestSubarray(nums);
+        Assertions.assertEquals(expected, actual);
+    }
 }
